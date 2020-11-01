@@ -13,7 +13,15 @@ Desenvolvida por Rosenblatt em 1958, é a estrutura mais simples para uma rede n
 
 Na figura acima foi atribuido um peso negativo fictício (*w<sub>0</sub>*) ao limiar de ativação apenas para cálculo do potencial de ativação (*u*). Esse potencial é a variável da função de ativação (*g(u)*) que retorna a saída (*y*). Matematicamente temos a seguinte representação:
 
-$$u = \sum_{i=1}^{n} w_i x_i - \theta$$
+<!-- $$
+u = \sum_{i=1}^{n} w_i x_i - \theta
+$$ --> 
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=u%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20w_i%20x_i%20-%20%5Ctheta%0D"></div>
 
 
-$$y = g(u) $$
+<!-- $$
+y = g(u)
+$$ --> 
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=y%20%3D%20g(u)%0D"></div>
