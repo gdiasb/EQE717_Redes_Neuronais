@@ -6,9 +6,9 @@
 
 Desenvolvida por Rosenblatt em 1958, é a estrutura mais simples para uma rede neural artificial e sua criação objetivava que a rede identificasse padrões geométricos. A rede *Perceptron* pertence à arquitetura *feedfoward*, pois o fluxo de informações parte da camada de entrada em direção à camada de saída, sem qualquer tipo de realimentação. Sua simplicidade reside no fato de possuir uma única camada constítuida por um neurônio. A Figura 1 é uma representação dessa rede com *n* variáveis (*x<sub>i</sub>*) e *n* pesos (*w<sub>i</sub>*). O único neurônio recebe o somatório das entradas ponderadas e compara com o limiar de ativação (&theta;).
 
-![Figura 1. Rede *Perceptron*](https://image.prntscr.com/image/el5E-lPWR7uAUyRwyNTq0w.png)
+<div align="center">![Figura 1. Rede *Perceptron*](https://image.prntscr.com/image/el5E-lPWR7uAUyRwyNTq0w.png)
 
-*Figura 1. Rede Perceptron*
+*Figura 1. Rede Perceptron*</div>
 &nbsp;
 
 Na figura acima foi atribuido um peso negativo fictício (*w<sub>0</sub>*) ao limiar de ativação apenas para cálculo do potencial de ativação (*u*). Esse potencial é a variável da função de ativação (*g(u)*) que retorna a saída (*y*). Matematicamente temos a seguinte representação:
@@ -16,12 +16,10 @@ Na figura acima foi atribuido um peso negativo fictício (*w<sub>0</sub>*) ao li
 <!-- $$
 u = \sum_{i=1}^{n} w_i x_i - \theta
 $$ --> 
-
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=u%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20w_i%20x_i%20-%20%5Ctheta%0D"></div>
-
 
 <!-- $$
 y = g(u)
 $$ --> 
-
 <div align="center"><img src="https://render.githubusercontent.com/render/math?math=y%20%3D%20g(u)%0D"></div>
+
