@@ -24,3 +24,10 @@ Diferentemente das redes feedfoward, possuem ao menos um laço de feedback (vari
 ## Histórico
 
 ## Fundamentos
+
+Os métodos de treinamento podem ser supervisionados ou não supervisionados. Para treinamentos supervisionados se necessita de dados de entrada e saída, os não-supervisionados requerem apenas os dados de entrada. 
+
+
+### Multilayer Perceptrons (MLP ou PMC): Backpropagation
+
+É a arquitetura de rede mais popular atualmente, 
