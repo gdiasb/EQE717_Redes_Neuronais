@@ -2,6 +2,8 @@
 
 **a)** Redes Neuronais;
   
+  Rede neuronal é um modelo matemático inspirado em sistemas biológicos neuronais teorizados. Frequentemente, a definição de redes neuronais é relacionada ao funcionamento do cérebro, i.e., há uma inspiração biológica: 
+  
   >Rede neuronal é uma máquina projetada para modelar a maneira pela qual o cérebro executa uma tarefa particular ou função de interesse; a rede é usualmente implementada usando componentes eletrônicos ou é simulada por software em computador digital. (Haykin, 1999)
 
 **b)** Métodos de Treinamento Supervisionados e Não Supervisionados;
